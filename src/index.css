@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.btn {
+		@apply inline-flex items-center justify-center px-6 py-3 rounded-md font-medium transition-all duration-200 transform;
+	}
+	
+	.btn:active {
+		@apply scale-95;
+	}
+	
+	.btn-primary {
+		@apply bg-indigo-600 text-white hover:bg-indigo-700 active:bg-indigo-800;
+	}
+	
+	.feature-card {
+		@apply p-6 rounded-xl hover:shadow-lg transition-shadow duration-300 cursor-pointer;
+	}
+	
+	.pricing-card {
+		@apply transform transition-all duration-300 hover:-translate-y-1 hover:shadow-xl;
+	}
+}
