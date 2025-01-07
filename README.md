@@ -80,3 +80,7 @@ const payment = await processPayment(
 ## License
 
 MIT
+
+## Preview
+
+![screencapture-localhost-5173-2025-01-07-11_58_40](https://github.com/user-attachments/assets/9c53d433-1bc7-444c-ad19-99bc575de2a8)
